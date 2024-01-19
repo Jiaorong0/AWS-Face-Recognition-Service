@@ -49,7 +49,6 @@ def lambda_handler(event, context):
 
             update_index('face_recognition',faceId,personFullName)
 
-        # Print response to console
         print(response)
 
         return response
